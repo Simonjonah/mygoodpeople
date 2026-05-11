@@ -65,12 +65,12 @@ export default function RootLayout({
             <div>
               <h4 className="font-heading font-bold text-lg mb-6 text-white tracking-tight">Our Services</h4>
               <ul className="space-y-3">
-                <li><Link href="/services/strategic-management" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Strategic Management</Link></li>
-                <li><Link href="/services/risk-management" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Risk Management</Link></li>
-                <li><Link href="/services/business-plan-development" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Business Plan Development</Link></li>
-                <li><Link href="/services/stock-control-management" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Stock Control & Management</Link></li>
-                <li><Link href="/services/accountancy-service" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Accountancy Service</Link></li>
-                <li><Link href="/services/audit-and-assurance" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Audit & Assurance</Link></li>
+                <li><Link href="/services/strategic-management" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Strategic management</Link></li>
+                <li><Link href="/services/risk-management" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Risk management</Link></li>
+                <li><Link href="/services/business-plan-development" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Business plan development</Link></li>
+                <li><Link href="/services/stock-control-management" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Stock control and management</Link></li>
+                <li><Link href="/services/accountancy-service" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Accountancy service</Link></li>
+                <li><Link href="/services/audit-and-assurance" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Audit and assurance</Link></li>
               </ul>
             </div>
             <div>

@@ -7,37 +7,37 @@ import { Target, ShieldAlert, FileText, PackageCheck, Calculator, FileCheck, Arr
 
 const services = [
   {
-    title: 'Strategic Management',
+    title: 'Strategic management',
     description: 'Comprehensive business strategy development and implementation.',
     icon: Target,
     href: '/services/strategic-management'
   },
   {
-    title: 'Risk Management',
+    title: 'Risk management',
     description: 'Identify, assess, and mitigate risks to protect your business.',
     icon: ShieldAlert,
     href: '/services/risk-management'
   },
   {
-    title: 'Business Plan Development',
+    title: 'Business plan development',
     description: 'Detailed, actionable business plans for startups and growth.',
     icon: FileText,
     href: '/services/business-plan-development'
   },
   {
-    title: 'Stock Control and Management',
+    title: 'Stock control and management',
     description: 'Optimize inventory levels and track stock requirements efficiently.',
     icon: PackageCheck,
     href: '/services/stock-control-management'
   },
   {
-    title: 'Accountancy Service',
+    title: 'Accountancy service',
     description: 'Expert financial record keeping and management accounts.',
     icon: Calculator,
     href: '/services/accountancy-service'
   },
   {
-    title: 'Audit and Assurance',
+    title: 'Audit and assurance',
     description: 'Independent compliance and financial assurance services.',
     icon: FileCheck,
     href: '/services/audit-and-assurance'
