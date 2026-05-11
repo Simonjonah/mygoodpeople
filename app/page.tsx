@@ -99,7 +99,7 @@ export default function Home() {
             >
               <div className="relative aspect-[4/3] rounded-sm overflow-hidden bg-slate-100">
                 <Image 
-                  src="https://photos.fife.usercontent.google.com/pw/AP1GczP-LLuYjUNPJYtp7D956xkOVQ14b2hEOFKX_uwB2JKpR6Utq5fYpUXZ=w1316-h878-s-no-gm?authuser=0" 
+                  src="/about.jpg" 
                   alt="Corporate consulting meeting" 
                   fill 
                   className="object-cover"
@@ -163,7 +163,7 @@ export default function Home() {
             })}
           </div>
           <div className="text-center mt-12">
-            <Link href="/services" className="bg-[#0A192F] text-white px-8 py-3 rounded text-sm font-semibold hover:bg-[#112240] transition-colors inline-block">
+            <Link href="/services" className="bg-[#D4AF37] text-[#0A192F] px-8 py-3 rounded text-sm font-bold hover:bg-[#E5C354] transition-colors inline-block shadow-sm">
               View All Services
             </Link>
           </div>
@@ -233,7 +233,7 @@ export default function Home() {
             </p>
             <Link 
               href="/quote"
-              className="bg-[#0A192F] text-white px-10 py-5 rounded font-bold hover:bg-[#112240] transition-colors text-lg inline-flex shadow-xl shadow-[#0A192F]/20"
+              className="bg-white text-[#0A192F] px-10 py-5 rounded font-bold hover:bg-slate-100 transition-colors text-lg inline-flex shadow-xl shadow-black/10"
             >
               Request a Consultation
             </Link>

@@ -44,7 +44,7 @@ export default function Header() {
           ))}
           <Link 
             href="/quote" 
-            className="bg-[#0A192F] text-white px-6 py-2.5 rounded text-sm font-semibold hover:bg-[#112240] transition-colors"
+            className="bg-[#D4AF37] text-[#0A192F] px-6 py-2.5 rounded text-sm font-bold hover:bg-[#E5C354] transition-colors shadow-sm"
           >
             Request a Quote
           </Link>
@@ -82,7 +82,7 @@ export default function Header() {
               ))}
               <Link 
                 href="/quote" 
-                className="bg-[#0A192F] text-white text-center px-6 py-3 rounded text-sm font-semibold hover:bg-[#112240] transition-colors mt-4 inline-block w-full"
+                className="bg-[#D4AF37] text-[#0A192F] text-center px-6 py-3 rounded text-sm font-bold hover:bg-[#E5C354] transition-colors mt-4 inline-block w-full shadow-sm"
                 onClick={() => setIsOpen(false)}
               >
                 Request a Quote

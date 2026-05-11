@@ -57,11 +57,11 @@ export default function ServicesPage() {
       </section>
       
       {/* CTA section */}
-      <section className="py-20 bg-[#D4AF37] text-[#0A192F] text-center">
+      <section className="py-20 bg-[#0A192F] text-white text-center">
         <div className="container mx-auto px-4">
-          <h2 className="font-heading text-3xl font-bold mb-6">Need a custom solution?</h2>
-          <p className="mb-8 max-w-2xl mx-auto font-medium">If your business requires a specialized blend of our services, we can create a tailored package for your specific needs.</p>
-          <Link href="/quote" className="bg-[#0A192F] text-white px-8 py-4 rounded font-bold hover:bg-[#112240] transition-colors inline-block shadow-lg">
+          <h2 className="font-heading text-3xl font-bold mb-6 text-white">Need a custom solution?</h2>
+          <p className="mb-8 max-w-2xl mx-auto font-medium text-slate-300">If your business requires a specialized blend of our services, we can create a tailored package for your specific needs.</p>
+          <Link href="/quote" className="bg-[#D4AF37] text-[#0A192F] px-8 py-4 rounded font-bold hover:bg-[#E5C354] transition-colors inline-block shadow-lg">
             Discuss Your Requirements
           </Link>
         </div>
