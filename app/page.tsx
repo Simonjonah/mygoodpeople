@@ -3,14 +3,14 @@
 import { motion } from 'motion/react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Target, ShieldAlert, FileText, Calculator, FileCheck, ArrowRight, CheckCircle2, Phone, Mail, MapPin } from 'lucide-react';
+import { Target, ShieldAlert, FileText, PackageCheck, Calculator, FileCheck, ArrowRight, CheckCircle2, Phone, Mail, MapPin } from 'lucide-react';
 
 const services = [
   {
-    title: 'Strategy Management',
+    title: 'Strategic Management',
     description: 'Comprehensive business strategy development and implementation.',
     icon: Target,
-    href: '/services/strategy-management'
+    href: '/services/strategic-management'
   },
   {
     title: 'Risk Management',
@@ -19,22 +19,28 @@ const services = [
     href: '/services/risk-management'
   },
   {
-    title: 'Business Plans',
+    title: 'Business Plan Development',
     description: 'Detailed, actionable business plans for startups and growth.',
     icon: FileText,
-    href: '/services/business-plans'
+    href: '/services/business-plan-development'
   },
   {
-    title: 'Accountancy',
+    title: 'Stock Control and Management',
+    description: 'Optimize inventory levels and track stock requirements efficiently.',
+    icon: PackageCheck,
+    href: '/services/stock-control-management'
+  },
+  {
+    title: 'Accountancy Service',
     description: 'Expert financial record keeping and management accounts.',
     icon: Calculator,
-    href: '/services/accountancy'
+    href: '/services/accountancy-service'
   },
   {
-    title: 'Audits',
+    title: 'Audit and Assurance',
     description: 'Independent compliance and financial assurance services.',
     icon: FileCheck,
-    href: '/services/audits'
+    href: '/services/audit-and-assurance'
   }
 ];
 
@@ -265,7 +271,7 @@ export default function Home() {
                 <MapPin className="w-5 h-5" />
               </div>
               <h4 className="font-bold text-[#0A192F] mb-1">Visit Us</h4>
-              <p className="text-slate-500 text-sm opacity-80">Financial District, 123 Business Blvd</p>
+              <p className="text-slate-500 text-sm opacity-80 max-w-xs text-center">BuruBuru Business complex next to cooperative Bank, Mumias South road, Nairobi</p>
             </div>
           </div>
         </div>
