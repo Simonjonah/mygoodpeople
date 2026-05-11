@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
@@ -16,11 +17,18 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-sm border-b border-slate-200">
+    <header className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-sm border-b border-slate-200 shadow-sm">
       <div className="container mx-auto px-4 lg:px-8 h-20 flex items-center justify-between">
-        <Link href="/" className="flex flex-col" onClick={() => setIsOpen(false)}>
-          <span className="font-heading font-bold text-2xl text-[#0A192F] leading-none tracking-tight">GoodPeople</span>
-          <span className="text-[10px] text-[#D4AF37] font-semibold tracking-wider uppercase mt-1">Corporate Consultancy</span>
+        <Link href="/" className="flex items-center" onClick={() => setIsOpen(false)}>
+          <div className="relative h-14 w-48">
+            <Image 
+              src="/logo.jpeg" 
+              alt="GoodPeople Corporate Consultancy Ltd" 
+              fill 
+              className="object-contain object-left"
+              priority
+            />
+          </div>
         </Link>
         
         {/* Desktop Nav */}

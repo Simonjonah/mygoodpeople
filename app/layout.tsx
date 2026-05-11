@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Montserrat, Open_Sans } from 'next/font/google';
 import './globals.css';
 import Link from 'next/link';
+import Image from 'next/image';
 import { MessageCircle } from 'lucide-react';
 import Header from '@/components/Header';
 
@@ -40,9 +41,13 @@ export default function RootLayout({
         <footer className="bg-[#0A192F] text-white pt-16 pb-8 border-t-[6px] border-[#D4AF37]">
           <div className="container mx-auto px-4 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
             <div>
-              <Link href="/" className="flex flex-col mb-6">
-                <span className="font-heading font-bold text-2xl text-white leading-none tracking-tight">GoodPeople</span>
-                <span className="text-[10px] text-[#D4AF37] font-semibold tracking-wider uppercase mt-1">Corporate Consultancy</span>
+              <Link href="/" className="inline-block mb-6 relative h-16 w-56">
+                <Image 
+                  src="/logo.jpeg" 
+                  alt="GoodPeople Corporate Consultancy Ltd" 
+                  fill 
+                  className="object-contain object-left"
+                />
               </Link>
               <p className="text-slate-400 text-sm leading-relaxed">
                 Helping you plan, manage & grow with confidence. Professional business and financial solutions for SMEs, startups, and corporate organizations.

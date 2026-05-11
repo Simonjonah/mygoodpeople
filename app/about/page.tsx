@@ -28,7 +28,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative aspect-square md:aspect-[4/3] rounded-sm overflow-hidden shadow-lg">
               <Image 
-                src="https://photos.fife.usercontent.google.com/pw/AP1GczP-LLuYjUNPJYtp7D956xkOVQ14b2hEOFKX_uwB2JKpR6Utq5fYpUXZ=w1316-h878-s-no-gm?authuser=0" 
+                src="https://photos.fife.usercontent.google.com/pw/AP1GczP83CEAXAmIyelBTAI5qWDJfqR5qMRVTTHCT8RknyE8iWpvIIYfHOwf=w1317-h878-s-no-gm?authuser=0" 
                 alt="Corporate office" 
                 fill 
                 className="object-cover"
