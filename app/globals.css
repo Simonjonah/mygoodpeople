@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme inline {
+  --color-primary: #0A192F;
+  --color-primary-light: #112240;
+  --color-accent: #D4AF37;
+  --color-accent-hover: #E5C354;
+  --font-sans: var(--font-opensans), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
+}
