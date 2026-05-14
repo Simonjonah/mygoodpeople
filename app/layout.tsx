@@ -65,12 +65,13 @@ export default function RootLayout({
             <div>
               <h4 className="font-heading font-bold text-lg mb-6 text-white tracking-tight">Our Services</h4>
               <ul className="space-y-3">
-                <li><Link href="/services/strategic-management" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Strategic management</Link></li>
-                <li><Link href="/services/risk-management" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Risk management</Link></li>
-                <li><Link href="/services/business-plan-development" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Business plan development</Link></li>
+                <li><Link href="/services/strategic-management" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Strategic planning & management</Link></li>
+                <li><Link href="/services/risk-management" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Enterprise Risk Management</Link></li>
                 <li><Link href="/services/stock-control-management" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Stock control and management</Link></li>
-                <li><Link href="/services/accountancy-service" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Accountancy service</Link></li>
+                <li><Link href="/services/accountancy-service" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Accounting and bookkeeping</Link></li>
                 <li><Link href="/services/audit-and-assurance" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Audit and assurance</Link></li>
+                <li><Link href="/services/business-intelligence" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Business Intelligence & Data Analytics</Link></li>
+                <li><Link href="/services/tax-compliance" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Tax Advisory & Compliance</Link></li>
               </ul>
             </div>
             <div>

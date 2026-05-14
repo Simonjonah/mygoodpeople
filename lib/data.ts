@@ -1,26 +1,19 @@
-import { Target, ShieldAlert, FileText, PackageCheck, Calculator, FileCheck } from 'lucide-react';
+import { Target, ShieldAlert, PackageCheck, Calculator, FileCheck, BarChart3, Scale } from 'lucide-react';
 
 export const services = [
   {
     id: 'strategic-management',
-    title: 'Strategic management',
+    title: 'Strategic planning and management',
     description: 'We help you chart a definitive course for your business. From market analysis to goal setting and execution framework, our strategy management service ensures your entire team is aligned and focused on growth.',
     benefits: ['Clear roadmap for growth', 'Competitive advantage identification', 'Resource optimization', 'Aligned team objectives'],
     icon: Target,
   },
   {
     id: 'risk-management',
-    title: 'Risk management',
+    title: 'Enterprise Risk Management',
     description: 'Protect your business from unforeseen threats. We identify structural, financial, and operational risks, providing you with mitigation strategies that safeguard your assets and reputation.',
     benefits: ['Proactive threat identification', 'Financial safeguarding', 'Regulatory compliance assurance', 'Business continuity planning'],
     icon: ShieldAlert,
-  },
-  {
-    id: 'business-plan-development',
-    title: 'Business plan development',
-    description: 'Whether you are seeking investment or aiming to restructure, our extensive business plans provide a solid blueprint. We handle financial modeling, market research, and operational outlines.',
-    benefits: ['Investor-ready documentation', 'Realistic financial modeling', 'Clear operational blueprint', 'Market positioning'],
-    icon: FileText,
   },
   {
     id: 'stock-control-management',
@@ -31,7 +24,7 @@ export const services = [
   },
   {
     id: 'accountancy-service',
-    title: 'Accountancy service',
+    title: 'Accounting and bookkeeping',
     description: 'Keep your finances in perfect order. Our accountancy services range from daily bookkeeping to complex financial reporting, ensuring you always have a clear picture of your financial health.',
     benefits: ['Accurate financial data', 'Tax compliance preparation', 'Cash flow management', 'Expense tracking'],
     icon: Calculator,
@@ -42,5 +35,19 @@ export const services = [
     description: 'This includes both internal and external audits. Gain independent verification of your financial records to build trust with stakeholders by ensuring transparency, accuracy, and adherence to standard accounting practices.',
     benefits: ['Stakeholder confidence', 'Internal control evaluation', 'Fraud prevention', 'Statutory compliance'],
     icon: FileCheck,
+  },
+  {
+    id: 'business-intelligence',
+    title: 'Business Intelligence & Data Analytics',
+    description: 'Helping businesses turn financial and operational data into meaningful insights for smarter decision-making, improved performance, and better strategic planning.',
+    benefits: ['Power BI dashboards', 'Excel automation and reporting', 'Data visualization', 'Financial trend analysis', 'KPI tracking dashboards'],
+    icon: BarChart3,
+  },
+  {
+    id: 'tax-compliance',
+    title: 'Tax Advisory & Compliance',
+    description: 'Offering reliable tax support services to help businesses remain compliant, reduce risks, and improve tax efficiency through proper planning and advisory.',
+    benefits: ['Corporate and individual tax returns', 'Tax planning and strategy', 'VAT / sales tax compliance', 'PAYE and payroll tax support', 'Tax health checks', 'Tax dispute support and advisory'],
+    icon: Scale,
   }
 ];

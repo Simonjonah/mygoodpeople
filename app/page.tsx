@@ -3,26 +3,20 @@
 import { motion } from 'motion/react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Target, ShieldAlert, FileText, PackageCheck, Calculator, FileCheck, ArrowRight, CheckCircle2, Phone, Mail, MapPin } from 'lucide-react';
+import { Target, ShieldAlert, PackageCheck, Calculator, FileCheck, ArrowRight, CheckCircle2, Phone, Mail, MapPin, BarChart3, Scale } from 'lucide-react';
 
 const services = [
   {
-    title: 'Strategic management',
+    title: 'Strategic planning and management',
     description: 'Comprehensive business strategy development and implementation.',
     icon: Target,
     href: '/services/strategic-management'
   },
   {
-    title: 'Risk management',
+    title: 'Enterprise Risk Management',
     description: 'Identify, assess, and mitigate risks to protect your business.',
     icon: ShieldAlert,
     href: '/services/risk-management'
-  },
-  {
-    title: 'Business plan development',
-    description: 'Detailed, actionable business plans for startups and growth.',
-    icon: FileText,
-    href: '/services/business-plan-development'
   },
   {
     title: 'Stock control and management',
@@ -31,7 +25,7 @@ const services = [
     href: '/services/stock-control-management'
   },
   {
-    title: 'Accountancy service',
+    title: 'Accounting and bookkeeping',
     description: 'Expert financial record keeping and management accounts.',
     icon: Calculator,
     href: '/services/accountancy-service'
@@ -41,6 +35,18 @@ const services = [
     description: 'Independent compliance and financial assurance services.',
     icon: FileCheck,
     href: '/services/audit-and-assurance'
+  },
+  {
+    title: 'Business Intelligence & Data Analytics',
+    description: 'Turn your financial and operational data into meaningful insights.',
+    icon: BarChart3,
+    href: '/services/business-intelligence'
+  },
+  {
+    title: 'Tax Advisory & Compliance',
+    description: 'Offering reliable tax support to remain compliant and improve tax efficiency.',
+    icon: Scale,
+    href: '/services/tax-compliance'
   }
 ];
 
