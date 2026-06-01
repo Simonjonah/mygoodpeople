@@ -22,6 +22,11 @@ export const metadata: Metadata = {
   title: 'GoodPeople Corporate Consultancy Ltd | Professional Business & Financial Solutions',
   description: 'GoodPeople Corporate Consultancy Ltd helps you plan, manage & grow with confidence. Specializing in Strategy Management, Risk Management, Business Plans, Accountancy, and Audits.',
   keywords: 'Business consulting, Risk management services, Accountancy services, Business plan experts',
+  icons: {
+    icon: '/logo.jpeg',
+    shortcut: '/logo.jpeg',
+    apple: '/logo.jpeg',
+  },
 };
 
 export default function RootLayout({
@@ -77,7 +82,7 @@ export default function RootLayout({
             <div>
               <h4 className="font-heading font-bold text-lg mb-6 text-white tracking-tight">Contact</h4>
               <ul className="space-y-3 text-sm text-slate-400">
-                <li>Email: wamuritu@gmail.com</li>
+                <li>Email: gpcorporate@gmail.com</li>
                 <li>Phone: +1 (234) 567-8900</li>
                 <li>Location: BuruBuru Business complex next to cooperative Bank, Mumias South road, Nairobi</li>
               </ul>

@@ -270,7 +270,7 @@ export default function Home() {
                 <Mail className="w-5 h-5" />
               </div>
               <h4 className="font-bold text-[#0A192F] mb-1">Email Us</h4>
-              <p className="text-slate-500 text-sm opacity-80">wamuritu@gmail.com</p>
+              <p className="text-slate-500 text-sm opacity-80">gpcorporate@gmail.com</p>
             </div>
             <div className="flex flex-col items-center">
               <div className="w-12 h-12 bg-slate-50 flex items-center justify-center rounded-full text-[#D4AF37] mb-4">

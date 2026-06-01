@@ -57,7 +57,7 @@ export default function ContactPage() {
                   <Mail className="w-5 h-5 text-[#D4AF37] mr-4 shrink-0 mt-1" />
                   <div>
                     <h4 className="font-bold text-sm mb-1">Email</h4>
-                    <a href="mailto:wamuritu@gmail.com" className="text-slate-300 text-sm hover:text-[#D4AF37]">wamuritu@gmail.com</a>
+                    <a href="mailto:gpcorporate@gmail.com" className="text-slate-300 text-sm hover:text-[#D4AF37]">gpcorporate@gmail.com</a>
                   </div>
                 </div>
                 <div className="flex items-start">

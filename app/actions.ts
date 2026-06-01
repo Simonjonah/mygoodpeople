@@ -9,7 +9,7 @@ export async function submitContact(formData: FormData) {
   // Simulate network delay and sending email
   await new Promise((resolve) => setTimeout(resolve, 1500));
 
-  console.log('Sending Contact to wamuritu@gmail.com: ', { name, email, phone, message });
+  console.log('Sending Contact to gpcorporate@gmail.com: ', { name, email, phone, message });
 
   return { success: true, message: 'Thank you, we’ll contact you shortly.' };
 }
@@ -24,7 +24,7 @@ export async function submitQuote(formData: FormData) {
   // Simulate network delay and sending email
   await new Promise((resolve) => setTimeout(resolve, 1500));
 
-  console.log('Sending Quote Request to wamuritu@gmail.com: ', { name, business, service, budget, message });
+  console.log('Sending Quote Request to gpcorporate@gmail.com: ', { name, business, service, budget, message });
 
   return { success: true, message: 'Thank you, we’ll contact you shortly.' };
 }

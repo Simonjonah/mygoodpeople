@@ -18,9 +18,9 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-sm border-b border-slate-200 shadow-sm">
-      <div className="container mx-auto px-4 lg:px-8 h-20 flex items-center justify-between">
+      <div className="container mx-auto px-4 lg:px-8 h-24 flex items-center justify-between">
         <Link href="/" className="flex items-center" onClick={() => setIsOpen(false)}>
-          <div className="relative h-14 w-48">
+          <div className="relative h-20 w-64 md:w-80 md:h-24">
             <Image 
               src="/logo.jpeg" 
               alt="GoodPeople Corporate Consultancy Ltd" 
