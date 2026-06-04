@@ -18,16 +18,23 @@ const openSans = Open_Sans({
   display: 'swap',
 });
 
-export const metadata: Metadata = {
-  title: 'GoodPeople Corporate Consultancy Ltd | Professional Business & Financial Solutions',
-  description: 'GoodPeople Corporate Consultancy Ltd helps you plan, manage & grow with confidence. Specializing in Strategy Management, Risk Management, Business Plans, Accountancy, and Audits.',
-  keywords: 'Business consulting, Risk management services, Accountancy services, Business plan experts',
-  icons: {
-    icon: '/logo.jpeg',
-    shortcut: '/logo.jpeg',
-    apple: '/logo.jpeg',
-  },
-};
+import { getSeoSettings } from '@/lib/seo';
+
+export async function generateMetadata(): Promise<Metadata> {
+  const seo = getSeoSettings();
+  
+  return {
+    title: seo.title,
+    description: seo.description,
+    keywords: seo.keywords,
+    metadataBase: seo.websiteUrl !== 'https://example.com' ? new URL(seo.websiteUrl) : undefined,
+    icons: {
+      icon: seo.logo,
+      shortcut: seo.logo,
+      apple: seo.logo,
+    },
+  };
+}
 
 export default function RootLayout({
   children,
