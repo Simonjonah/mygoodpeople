@@ -16,7 +16,7 @@ const defaultSeo: SeoSettings = {
   description: 'GoodPeople Corporate Consultancy Ltd helps you plan, manage & grow with confidence. Specializing in Strategy Management, Risk Management, Business Plans, Accountancy, and Audits.',
   keywords: 'Business consulting, Risk management services, Accountancy services, Business plan experts',
   logo: '/logo.jpeg',
-  websiteUrl: 'https://example.com'
+  websiteUrl: 'https://www.goodpeoplecorporate.site/'
 };
 
 export function getSeoSettings(): SeoSettings {

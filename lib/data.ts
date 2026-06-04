@@ -19,7 +19,7 @@ export const services = [
     id: 'stock-control-management',
     title: 'Stock control and management',
     description: 'Optimize your inventory levels to reduce costs and improve cash flow. We implement robust systems to track, manage, and forecast stock requirements efficiently.',
-    benefits: ['Reduced holding costs', 'Minimized stockouts', 'Improved inventory turnover', 'Accurate demand forecasting'],
+    benefits: ['Reduced holding costs', 'Minimized stockouts', 'Improved inventory turnover', 'Accurate demand forecasting', 'Stock taking', 'Reconciling Stock records'],
     icon: PackageCheck,
   },
   {
