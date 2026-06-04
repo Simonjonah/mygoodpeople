@@ -19,8 +19,7 @@ export default function LoginPage() {
     try {
       const result = await login(formData);
       if (result?.success) {
-        router.push('/admin/dashboard');
-        router.refresh(); // Refresh to apply middleware session state correctly
+        window.location.href = '/admin/dashboard';
       } else if (result?.error) {
         setError(result.error);
         setIsLoading(false);

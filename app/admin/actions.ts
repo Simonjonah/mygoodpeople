@@ -15,8 +15,6 @@ export async function login(formData: FormData) {
   if (username === ADMIN_USERNAME && password === ADMIN_PASSWORD) {
     const cookieStore = await cookies();
     cookieStore.set('admin_auth', 'true', { 
-      secure: process.env.NODE_ENV === 'production', 
-      httpOnly: true, 
       path: '/' 
     });
     return { success: true };

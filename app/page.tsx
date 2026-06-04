@@ -3,7 +3,7 @@
 import { motion } from 'motion/react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Target, ShieldAlert, PackageCheck, Calculator, FileCheck, ArrowRight, CheckCircle2, Phone, Mail, MapPin, BarChart3, Scale } from 'lucide-react';
+import { Target, ShieldAlert, PackageCheck, Calculator, FileCheck, ArrowRight, CheckCircle2, Phone, Mail, MapPin, BarChart3, Scale, BookOpen } from 'lucide-react';
 
 const services = [
   {
@@ -47,6 +47,12 @@ const services = [
     description: 'Offering reliable tax support to remain compliant and improve tax efficiency.',
     icon: Scale,
     href: '/services/tax-compliance'
+  },
+  {
+    title: 'Business Research and Trainings',
+    description: 'Provide comprehensive market research, feasibility studies, and tailored corporate training programs.',
+    icon: BookOpen,
+    href: '/services/business-research-and-trainings'
   }
 ];
 

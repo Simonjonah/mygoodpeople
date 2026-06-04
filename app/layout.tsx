@@ -84,6 +84,7 @@ export default function RootLayout({
                 <li><Link href="/services/audit-and-assurance" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Audit and assurance</Link></li>
                 <li><Link href="/services/business-intelligence" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Business Intelligence & Data Analytics</Link></li>
                 <li><Link href="/services/tax-compliance" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Tax Advisory & Compliance</Link></li>
+                <li><Link href="/services/business-research-and-trainings" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Business Research and Trainings</Link></li>
               </ul>
             </div>
             <div>

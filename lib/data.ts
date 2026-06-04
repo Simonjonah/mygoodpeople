@@ -1,4 +1,4 @@
-import { Target, ShieldAlert, PackageCheck, Calculator, FileCheck, BarChart3, Scale } from 'lucide-react';
+import { Target, ShieldAlert, PackageCheck, Calculator, FileCheck, BarChart3, Scale, BookOpen } from 'lucide-react';
 
 export const services = [
   {
@@ -49,5 +49,12 @@ export const services = [
     description: 'Offering reliable tax support services to help businesses remain compliant, reduce risks, and improve tax efficiency through proper planning and advisory.',
     benefits: ['Corporate and individual tax returns', 'Tax planning and strategy', 'VAT / sales tax compliance', 'PAYE and payroll tax support', 'Tax health checks', 'Tax dispute support and advisory'],
     icon: Scale,
+  },
+  {
+    id: 'business-research-and-trainings',
+    title: 'Business Research and Trainings',
+    description: 'Empowering your workforce and informing your strategy through comprehensive market research, feasibility studies, and tailored corporate training programs.',
+    benefits: ['Market research and analysis', 'Feasibility studies', 'Corporate training programs', 'Skills development and capacity building'],
+    icon: BookOpen,
   }
 ];
