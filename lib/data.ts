@@ -1,6 +1,13 @@
-import { Target, ShieldAlert, PackageCheck, Calculator, FileCheck, BarChart3, Scale, BookOpen } from 'lucide-react';
+import { Target, ShieldAlert, PackageCheck, Calculator, FileCheck, BarChart3, Scale, BookOpen, Briefcase } from 'lucide-react';
 
 export const services = [
+  {
+    id: 'professional-business-and-financial-solutions',
+    title: 'Professional Business & Financial Solutions',
+    description: 'Helping You Plan, Manage & Grow With Confidence. We partner with SMEs SACCOs and corporate organizations to navigate complex challenges.',
+    benefits: ['Strategic planning', 'Financial management', 'Business growth', 'Complex challenge navigation'],
+    icon: Briefcase,
+  },
   {
     id: 'strategic-management',
     title: 'Strategic planning and management',

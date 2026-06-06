@@ -3,9 +3,15 @@
 import { motion } from 'motion/react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Target, ShieldAlert, PackageCheck, Calculator, FileCheck, ArrowRight, CheckCircle2, Phone, Mail, MapPin, BarChart3, Scale, BookOpen } from 'lucide-react';
+import { Target, ShieldAlert, PackageCheck, Calculator, FileCheck, ArrowRight, CheckCircle2, Phone, Mail, MapPin, BarChart3, Scale, BookOpen, Briefcase } from 'lucide-react';
 
 const services = [
+  {
+    title: 'Professional Business & Financial Solutions',
+    description: 'Helping You Plan, Manage & Grow With Confidence. We partner with SMEs SACCOs and corporate organizations to navigate complex challenges.',
+    icon: Briefcase,
+    href: '/services/professional-business-and-financial-solutions'
+  },
   {
     title: 'Strategic planning and management',
     description: 'Comprehensive business strategy development and implementation.',
@@ -83,7 +89,7 @@ export default function Home() {
               Professional <span className="text-[#D4AF37]">Business</span> & Financial Solutions
             </h1>
             <p className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl font-light">
-              Helping You Plan, Manage & Grow With Confidence. We partner with SMEs and corporate organizations to navigate complex challenges.
+              Helping You Plan, Manage & Grow With Confidence. We partner with SMEs SACCOs and corporate organizations to navigate complex challenges.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link 
@@ -268,7 +274,7 @@ export default function Home() {
                 <Phone className="w-5 h-5" />
               </div>
               <h4 className="font-bold text-[#0A192F] mb-1">Call Us</h4>
-              <p className="text-slate-500 text-sm opacity-80">+1 (234) 567-8900</p>
+              <p className="text-slate-500 text-sm opacity-80">+1 (254) 720-658-572</p>
             </div>
             <div className="flex flex-col items-center relative">
               <div className="hidden md:block absolute top-1/2 left-0 w-full h-px bg-slate-100 -z-10" />

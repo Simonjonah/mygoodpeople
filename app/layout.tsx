@@ -53,16 +53,16 @@ export default function RootLayout({
         <footer className="bg-[#0A192F] text-white pt-16 pb-8 border-t-[6px] border-[#D4AF37]">
           <div className="container mx-auto px-4 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
             <div>
-              <Link href="/" className="inline-block mb-6 relative h-16 w-56">
+              <Link href="/" className="inline-block mb-6 relative h-24 w-72">
                 <Image 
                   src="/logo.jpeg" 
                   alt="GoodPeople Corporate Consultancy Ltd" 
                   fill 
-                  className="object-contain object-left"
+                  className="object-contain object-scale-down object-left"
                 />
               </Link>
               <p className="text-slate-400 text-sm leading-relaxed">
-                Helping you plan, manage & grow with confidence. Professional business and financial solutions for SMEs, startups, and corporate organizations.
+                Helping You Plan, Manage & Grow With Confidence. We partner with SMEs SACCOs and corporate organizations to navigate complex challenges.
               </p>
             </div>
             <div>
@@ -77,6 +77,7 @@ export default function RootLayout({
             <div>
               <h4 className="font-heading font-bold text-lg mb-6 text-white tracking-tight">Our Services</h4>
               <ul className="space-y-3">
+                <li><Link href="/services/professional-business-and-financial-solutions" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Professional Business Solutions</Link></li>
                 <li><Link href="/services/strategic-management" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Strategic planning & management</Link></li>
                 <li><Link href="/services/risk-management" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Enterprise Risk Management</Link></li>
                 <li><Link href="/services/stock-control-management" className="text-slate-400 text-sm hover:text-[#D4AF37] transition-colors">Stock control and management</Link></li>
@@ -91,7 +92,7 @@ export default function RootLayout({
               <h4 className="font-heading font-bold text-lg mb-6 text-white tracking-tight">Contact</h4>
               <ul className="space-y-3 text-sm text-slate-400">
                 <li>Email: gpcorporate@gmail.com</li>
-                <li>Phone: +1 (234) 567-8900</li>
+                <li>Phone: +1 (254) 720-658-572</li>
                 <li>Location: BuruBuru Business complex next to cooperative Bank, Mumias South road, Nairobi</li>
               </ul>
             </div>
@@ -105,7 +106,7 @@ export default function RootLayout({
 
         {/* Floating WhatsApp Button */}
         <a 
-          href="https://wa.me/12345678900?text=Hello,%20I%E2%80%99m%20interested%20in%20your%20services" 
+          href="https://wa.me/1254720658572?text=Hello,%20I%E2%80%99m%20interested%20in%20your%20services" 
           target="_blank" 
           rel="noopener noreferrer"
           className="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform flex items-center justify-center focus:outline-none focus:ring-4 focus:ring-[#25D366]/30"
